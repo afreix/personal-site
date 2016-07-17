@@ -10,6 +10,7 @@ const HomePage = () => {
       <ol>
         <li>Review the <Link to="fuel-savings">demo app</Link></li>
         <li>Remove the demo and start coding: npm run remove-demo</li>
+        <li>Take a look at <Link to="harry"> Harry's page </Link></li>
       </ol>
     </div>
   );
