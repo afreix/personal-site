@@ -1,14 +1,19 @@
 import React, { PropTypes } from 'react';
 import { Link, IndexLink } from 'react-router';
+import Header from './Header/Header';
 
 const App = (props) => {
   return (
     <div>
-      <IndexLink to="/">Home</IndexLink>
-      {' | '}
-      <Link to="/fuel-savings">Demo App</Link>
-      {' | '}
-      <Link to="/about">About</Link>
+      <Header>
+        <IndexLink to="/">Home</IndexLink>
+        {' | '}
+        <Link to="/fuel-savings">Demo App</Link>
+        {' | '}
+        <Link to="/about">About Andrew</Link>
+        {' | '}
+        <Link to="/harry">About Harry</Link>
+      </Header>
       <br/>
       {props.children}
     </div>

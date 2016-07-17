@@ -6,9 +6,7 @@ const AboutHarry = () => {
 	return (
 		<div> 
 			<h1> About Harry </h1>
-				<p> Believe it or not, he is a promising young student worthy of your trust and praise. </p>
-
-				<p> Click <Link to="/"> here </Link> to return to the homepage </p>
+				<p> Hello, my name is Harry. </p>
 		</div>
 		);
 };
