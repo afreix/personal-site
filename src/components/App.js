@@ -11,6 +11,8 @@ const App = (props) => {
         <Link to="/fuel-savings">Demo App</Link>
         {' | '}
         <Link to="/about">About Andrew</Link>
+        {' | '}
+        <Link to="/harry">About Harry</Link>
       </Header>
       <br/>
       {props.children}
